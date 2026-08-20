@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - charybdis
     tags:
       - 'v*'
   workflow_dispatch:
